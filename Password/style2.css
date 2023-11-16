@@ -1,0 +1,552 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   }
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    padding: 12px 22px;
+    border-radius: 2px;
+    transition: 0.5s;
+    border: 3px solid;
+}
+ul li a:hover{
+    color: green;
+    background: #fff;
+
+    font-weight: 600;
+}
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border: 2px yellow;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+#login{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    width: 85px;
+    height: 43px;
+    font-size: 14px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+#login:hover{
+    color: white;
+    background-color: red;
+}
+.searches{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 80px;
+    
+}
+#search{
+    width: 540px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#Sbutton{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-size: 18px;
+    
+}
+#Sbutton:hover{
+    color: green;
+    background-color: white;
+    border-color: white;
+    font-size: 18px;
+}
+.img1{
+    
+   position: absolute;
+   top: 45%; 
+   width: 250px;
+   height: auto;
+   padding: 10px;
+   float: left;
+   justify-self: center;
+   left: 20px;
+   border-radius: 15px;
+    
+    
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+   
+  
+}
+.img1:hover{
+    background-color: #fff;
+    width: 207px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+.img2{
+  position: absolute;
+   top: 45%; 
+   width: 250px;
+   height: auto;
+   padding: 10px;
+   float: left;
+   justify-self: center;
+   left: 18%;
+   border-radius: 15px;
+}
+.img2:hover{
+    background: #fff;
+    width: 192px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: 270px;
+    border-radius: 15px;
+
+}
+.img3{
+    position: absolute;
+   top: 45%; 
+   width: 250px;
+   height: auto;
+   padding: 10px;
+   float: left;
+   justify-self: center;
+   left: 33%;
+   border-radius: 15px;
+}
+.img3:hover{
+    background: #fff;
+    width: 192px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+.img4{
+    position: absolute;
+    top: 45%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 48%;
+    border-radius: 15px;
+}
+.img4:hover{
+    background: #fff;
+    width: 207px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+.img5{
+    position: absolute;
+    top: 45%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 65%;
+    border-radius: 15px;
+}
+.img5:hover{
+    background: #fff;
+    width: 197px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+.img6{
+    position: absolute;
+    top: 45%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 81%;
+    border-radius: 15px;
+}
+.img6:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+
+.button span{
+    position: relative;
+    left: 108px;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+    left: 15px;
+    bottom: -230px;
+}
+.button .btn1{
+    background: red;
+    padding: 14px 26px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.button .btn1:hover{
+    background: red;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button .btn2{
+    background: #ffffff2e;
+    padding: 14px 26px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.button .btn2:hover{
+    background: #fff;
+    color: green;
+    font-weight: 600;
+    cursor: pointer;
+}
+.parag{
+    position: absolute;
+    top: 130%;
+    color: white;
+}
+
+.img7{
+    
+        position: absolute;
+        top: 85%; 
+        width: 250px;
+        height: auto;
+        padding: 10px;
+        float: left;
+        justify-self: center;
+        left: 20px;
+        
+     }
+
+     img{
+         max-width: 100%;
+         border-radius: 15px;
+}
+.img7:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+    
+}
+.img8{
+    
+   position: absolute;
+   top: 85%; 
+   width: 250px;
+   height: auto;
+   padding: 10px;
+   float: left;
+   justify-self: center;
+   left: 18%;
+   border-radius: 15px;
+    
+ }
+ img{
+     max-width: 100%;
+     border-radius: 15px;
+}
+.img8:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+.img10{
+    position: absolute;
+   top: 85%; 
+   width: 250px;
+   height: auto;
+   padding: 10px;
+   float: left;
+   justify-self: center;
+   left: 33%;
+   border-radius: 15px;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.img10:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+
+.img11{
+    position: absolute;
+    top: 85%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 48%;
+    border-radius: 15px;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.img11:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+.img12{
+    position: absolute;
+    top: 85%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 65%;
+    border-radius: 15px;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.img12:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+.img13{
+    position: absolute;
+    top: 85%; 
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    justify-self: center;
+    left: 81%;
+    border-radius: 15px;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.img13:hover{
+    background: #fff;
+    width: 186px;
+    height: 270px;
+    cursor: pointer;
+    
+    
+}
+.for1{
+    position: absolute;
+    top: 82%;
+    left: 43px;
+    color: white;
+    border: 1px solid;
+    
+}
+.for1:hover{
+    background-color: white;
+    color: black;
+    border-color: green;
+    cursor: pointer;
+}
+.for2{
+    position: absolute;
+    top: 82%;
+    color: white;
+    left: 20%;
+    border: 1px solid;
+}
+.for2:hover{
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+}
+.for3{
+    position: absolute;
+    top: 82%;
+    color: white;
+    left: 35%;
+    border: 1px solid;
+}
+.for4{
+    position: absolute;
+    top: 82%;
+    color: white;
+    left: 50%;
+    border: 1px solid;
+}
+.for5{
+    position: absolute;
+    top: 82%;
+    color: white;
+    left: 67%;
+    border: 1px solid;
+}
+.for6{
+    position: absolute;
+    top: 82%;
+    color: white;
+    left: 83%;
+    border: 1px solid;
+}
+.for7{
+    position: absolute;
+    top: 120%;
+    left: 43px;
+    color: white;
+    border: 1px solid;
+}
+.for8{
+    position: absolute;
+    top: 120%;
+    color: white;
+    left: 20%;
+    border: 1px solid;
+}
+.for9{
+
+    position: absolute;
+    top: 120%;
+    color: white;
+    left: 35%;
+    border: 1px solid;
+}
+.for10{
+    position: absolute;
+    border: 1px solid;
+    top: 120%;
+    color: white;
+    left: 50%;
+}
+.for11{
+    position: absolute;
+    top: 120%;
+    color: white;
+    left: 67%;
+    border: 1px solid;
+}
+.for12{
+    position: absolute;
+    top: 120%;
+    color: white;
+    left: 83%;
+    border: 1px solid;
+}

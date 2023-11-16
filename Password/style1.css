@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(black, lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+ }
+ .page2{
+    border: 5px solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    background: linear-gradient(lightblue, gray); 
+}
+.box1{
+    color: black;
+    position: relative;
+    top: 55px;
+    left: 34%;
+    font-size: 33px;
+    font-style:inherit
+    
+}
+.info{
+    position: absolute;
+    top: 30%;
+    left: 61px;
+    font-size: 27px;
+    
+
+}
+#Fname{
+    background: linear-gradient(lightblue, white);
+    border-radius: 14px;
+    width: 70%;
+    height: 25px;
+    border-color: black;
+    font-size: 15px;
+}
+#Lname{
+    font-size: 15px;
+    background: linear-gradient(lightblue, white);
+    border-radius: 14px;
+    width: 70%;
+    height: 25px;
+    border-color: black;
+}
+#DATE{
+    font-size: 15px;
+    background: linear-gradient(lightblue, white);
+    border-radius: 14px;
+    width: 70%;
+    height: 25px;
+    border-color: black;
+}
+#Femail{
+    font-size: 15px;
+    background: linear-gradient(lightblue, white);
+    border-radius: 14px;
+    width: 70%;
+    height: 25px;
+    border-color: black;
+}
+#pass{
+    font-size: 15px;
+    background: linear-gradient(lightblue, white);
+    border-radius: 14px;
+    width: 70%;
+    height: 25px;
+    border-color: black;
+
+}
+#Tpass{
+    font-size: 15px;
+    background: linear-gradient(lightblue, white);
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    width: 70%;
+    height: 25px;
+    border-radius: 14px;
+    border-color: black;
+}
+#sing{
+    position: absolute;
+    top: 75%;
+    left: 65px;
+    width: 62%;
+    height: 25px;
+    border-radius: 14px;
+    color: whitesmoke;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+#sing:hover{
+    background-color: black;
+    color: white;
+}
