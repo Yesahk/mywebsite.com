@@ -1,0 +1,104 @@
+body {
+    background: fixed;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Add this to remove default margin */
+}
+
+ol {
+    position: absolute; /* Change to fixed position */
+    top: 0%; /* Adjust the top position as needed */
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+ol li {
+    list-style: none;
+    margin-left: 28px;
+    background-color: red;
+    width: 90px;
+    height: 30px;
+    border: solid 5px;
+    border-radius: 8px;
+    border-color: red;
+    font-size: 20px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+}
+
+ol li:hover {
+    background-color: white;
+    border-color: white;
+}
+
+ol li a:hover {
+    color: black;
+}
+
+h1 {
+    position: relative;
+    top: 0%;
+    left: 40px;
+    color: white;
+}
+
+.skill-category {
+    
+    background-color: #ecf0f1;
+    margin: 70px 5%; /* Add margin to create space */
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.skill-list {
+    
+    list-style: none;
+    padding: 0;
+}
+
+.skill-item {
+    background-color: #3498db;
+    color: #fff;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styling for each skill category */
+.java { background-color: #2ecc71; }
+.python { background-color: #e74c3c; }
+.javascript { background-color: #f39c12; }
+.spring { background-color: #27ae60; }
+.css { background-color: #9b59b6; }
+.html { background-color: #a88d32; }
+.react { background-color: #34495e; }
+.sql { background-color: #32a85b; }
+.mysql { background-color: #a83271; }
+.mongodb { background-color: #a83232; }
+
+@media (max-width: 768px) {
+    .skill-list {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+}
+

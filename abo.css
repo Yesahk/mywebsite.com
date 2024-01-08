@@ -1,0 +1,233 @@
+body {
+    background: fixed;
+    background-position: center;
+    background-image: url(pic/backdround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.abu {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+h2 {
+    color: aqua;
+}
+
+.abou {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: white;
+    font-weight: 600;
+}
+
+#ppart {
+    color: white;
+    font-weight: 600;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .abou {
+        position: absolute;
+        top: 60%; /* Adjust the top position for better visibility */
+        left: 40%;
+        order: 1; /* Change the order to move .abou below #ppart */
+    }
+}
+.exper {
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 390px;
+    height: 250px;
+    background-color: aquamarine;
+    border-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .exper {
+        position: absolute;
+        top: 85%; /* Adjust the top position for better visibility */
+        left: 40%;
+        order: 1; /* Change the order to move .abou below #ppart */
+    }
+}
+
+#secP {
+    color: black;
+    font-weight: 500;
+}
+
+.expo {
+    position: absolute;
+    top: 50%;
+    left: 290%;
+    color: white;
+}
+
+h3 {
+    color: black;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.image {
+    position: absolute;
+    top: 33%;
+    left: 58%;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px; /* Removed duplicate 'x' in '5x' */
+    box-shadow: 20px 20px 50px #43aba6;
+    background-color: antiquewhite;
+}
+
+#h22 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+@media (max-width: 768px) {
+    #h22 {
+        position: absolute;
+        margin-top: 29%; /* Adjust the top position for better visibility */
+        left: 40%;
+        
+    }
+}
+
+
+.experTwo {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    width: 390px;
+    height: 250px;
+    background-color: aquamarine;
+    border-color: black;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .experTwo {
+        position: absolute;
+        top: 120%; /* Adjust the top position for better visibility */
+        left: 40%;
+        order: 1; /* Change the order to move .abou below #ppart */
+    }
+}
+
+#ThirdP {
+    color: black;
+    font-weight: 500;
+}
+
+.experThree {
+    position: absolute;
+    top: 68%;
+    left: 70%;
+    width: 390px;
+    height: 250px;
+    background-color: aquamarine;
+    border-color: black;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .experThree {
+        position: absolute;
+        top: 155%; /* Adjust the top position for better visibility */
+        left: 40%;
+        order: 1; /* Change the order to move .abou below #ppart */
+    }
+}
+
+#FourthP {
+    color: black;
+    font-weight: 500;
+}
+
+ol {
+    position: absolute;
+    right: 5%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+ol li {
+    list-style: none;
+    margin-left: 28px;
+    margin-top: 25px;
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border: solid 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: white;
+}
+
+ol li a {
+    text-decoration: none;
+    color: green;
+    padding: 20px;
+    font-weight: 600;
+}
+
+ol li:hover {
+    background-color: red;
+    border-color: red;
+}
+
+ol li a:hover {
+    color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .aboutme {
+        top: 10%; /* Adjust top position for smaller screens */
+        left: 5%; /* Adjust left position for smaller screens */
+    }
+
+    .abu,
+    .abou,
+    .exper,
+    .expo,
+    .image,
+    .experTwo,
+    .experThree,
+    #h22 {
+        left: 5%; /* Adjust left position for smaller screens */
+    }
+
+    ol {
+        
+        right: 5%; /* Adjust right position for smaller screens */
+    }
+}
