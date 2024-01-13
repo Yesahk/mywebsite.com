@@ -4,19 +4,19 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0; /* Add this to remove default margin */
+    margin: 0;
 }
 
 ol.main {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: absolute; /* Change to fixed position */
-    top: 20px; /* Adjust the top position as needed */
+    position: absolute; 
+    top: 20px;
     right: 2%;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Adjust to align items to the bottom */
+    align-items: flex-end; 
   }
   
   li.page {
@@ -26,13 +26,13 @@ ol.main {
     border: solid 5px;
     border-radius: 8px;
     border-color: red;
-    margin-right: 10px;/* Remove margin for smaller screens */
+    margin-right: 10px;
   }
   
-  /* Media query for smaller screens */
+  
   @media only screen and (max-width: 600px) {
     li.page {
-      width: 100%; /* Adjust width for full width on smaller screens */
+      width: 100%; 
       margin-right: 2px;
       margin-bottom: 10px;
     }
@@ -41,7 +41,7 @@ ol.main {
   li.page a {
     text-decoration: none;
     color: white;
-    padding: 10px; /* Adjust padding for smaller screens */
+    padding: 10px; 
     font-weight: 700;
   }
 
@@ -64,7 +64,7 @@ h1 {
 .skill-category {
     
     background-color: #ecf0f1;
-    margin: 70px 5%; /* Add margin to create space */
+    margin: 70px 5%; 
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@ h2 {
     background-color: #2980b9;
 }
 
-/* Additional styling for each skill category */
+
 .java { background-color: #2ecc71; }
 .python { background-color: #e74c3c; }
 .javascript { background-color: #f39c12; }
@@ -108,7 +108,7 @@ h2 {
 
 @media (max-width: 768px) {
     .skill-list {
-        padding: 20px 0; /* Adjust padding for smaller screens */
+        padding: 20px 0; 
     }
 }
 

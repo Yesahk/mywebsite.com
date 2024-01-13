@@ -79,13 +79,13 @@ h2 {
 
 
 
-/* Media query for smaller screens */
+
 @media (max-width: 768px) {
     .abou {
         position: absolute;
-        top: 70%; /* Adjust the top position for better visibility */
+        top: 70%; 
         left: 40%;
-        order: 1; /* Change the order to move .abou below #ppart */
+        order: 1; 
     }
 }
 .exper {
@@ -102,9 +102,9 @@ h2 {
 @media (max-width: 768px) {
     .exper {
         position: absolute;
-        top: 85%; /* Adjust the top position for better visibility */
+        top: 85%;
         left: 40%;
-        order: 1; /* Change the order to move .abou below #ppart */
+        order: 1; 
     }
 }
 
@@ -134,7 +134,7 @@ h3 {
     height: auto;
     display: inline-block;
     overflow: hidden;
-    border-radius: 5px; /* Removed duplicate 'x' in '5x' */
+    border-radius: 5px; 
     box-shadow: 20px 20px 50px #43aba6;
     background-color: antiquewhite;
 }
@@ -147,7 +147,7 @@ h3 {
 @media (max-width: 768px) {
     #h22 {
         position: absolute;
-        margin-top: 29%; /* Adjust the top position for better visibility */
+        margin-top: 29%; 
         left: 40%;
         
     }
@@ -167,9 +167,9 @@ h3 {
 @media (max-width: 768px) {
     .experTwo {
         position: absolute;
-        top: 120%; /* Adjust the top position for better visibility */
+        top: 120%; 
         left: 40%;
-        order: 1; /* Change the order to move .abou below #ppart */
+        order: 1; 
     }
 }
 
@@ -191,9 +191,9 @@ h3 {
 @media (max-width: 768px) {
     .experThree {
         position: absolute;
-        top: 155%; /* Adjust the top position for better visibility */
+        top: 155%; 
         left: 40%;
-        order: 1; /* Change the order to move .abou below #ppart */
+        order: 1; 
     }
 }
 
@@ -240,11 +240,11 @@ ol li a:hover {
     color: white;
 }
 
-/* Media query for smaller screens */
+
 @media (max-width: 768px) {
     .aboutme {
-        top: 10%; /* Adjust top position for smaller screens */
-        left: 5%; /* Adjust left position for smaller screens */
+        top: 10%; 
+        left: 5%; 
     }
 
     .abu,
@@ -255,11 +255,11 @@ ol li a:hover {
     .experTwo,
     .experThree,
     #h22 {
-        left: 5%; /* Adjust left position for smaller screens */
+        left: 5%; 
     }
 
     ol {
         
-        right: 0%; /* Adjust right position for smaller screens */
+        right: 0%;
     }
 }

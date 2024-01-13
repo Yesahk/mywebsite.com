@@ -4,20 +4,20 @@ body {
     background-image: url(Screen\ Shot\ 2023-12-20\ at\ 10.17.00\ PM.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
-/* Default styles for larger screens */
+
 ol.main {
     list-style-type: none;
     margin: 0;
     padding: 40px;
-    position: fixed; /* Change to fixed position */
-    top: 20px; /* Adjust the top position as needed */
+    position: fixed; 
+    top: 20px; 
     right: 2%;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Adjust to align items to the bottom */
+    align-items: flex-end; 
   }
   
   li.page {
@@ -27,13 +27,13 @@ ol.main {
     border: solid 5px;
     border-radius: 8px;
     border-color: red;
-    margin-right: 10px;/* Remove margin for smaller screens */
+    margin-right: 10px;
   }
   
-  /* Media query for smaller screens */
+  
   @media only screen and (max-width: 600px) {
     li.page {
-      width: 100%; /* Adjust width for full width on smaller screens */
+      width: 100%; 
       margin-right: 2px;
       margin-bottom: 10px;
     }
@@ -42,7 +42,7 @@ ol.main {
   li.page a {
     text-decoration: none;
     color: white;
-    padding: 10px; /* Adjust padding for smaller screens */
+    padding: 10px; 
     font-weight: 700;
   }
   
@@ -59,17 +59,17 @@ ol li a:hover{
 h1 {
     position: absolute;
     top: 0%;
-    left: 20px; /* Adjust left position for better responsiveness */
-    font-size: 30px; /* Adjust font size for smaller screens */
+    left: 20px; 
+    font-size: 30px; 
     color: white;
 }
 
 p {
     position: absolute;
     top: 25%;
-    left: 12%; /* Adjust left position for better responsiveness */
+    left: 12%; 
     color: #03e3fc;
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 30px; 
 }
 @media (max-width: 768px) {
     p {
@@ -82,8 +82,8 @@ p {
 #decs {
     position: absolute;
     top: 44%;
-    left: 12%; /* Adjust left position for better responsiveness */
-    font-size: 20px; /* Adjust font size for smaller screens */
+    left: 12%; 
+    font-size: 20px; 
     color: white;
 }
 @media (max-width: 768px) {
@@ -96,21 +96,21 @@ p {
 
 .image {
     position: absolute;
-    top: 50%; /* Adjust the initial top position to center vertically */
-    left: 65%; /* Adjust the initial left position to center horizontally */
+    top: 50%;
+    left: 65%; 
     transform: translate(-50%, -50%);
-    max-width: 25%; /* Set maximum width to 100% of the parent container or viewport */
+    max-width: 25%; 
     height: auto;
     border-radius: 50%;
     background-color: antiquewhite;
 }
 
-/* Optional: Add media query for smaller screens */
+
 @media (max-width: 768px) {
     .image {
-        top: 90%; /* Adjust the top position for smaller screens */
+        top: 90%; 
         left: 29%;
-        transition: top 0.3s ease; /* Optional: Add a smooth transition effect */
+        transition: top 0.3s ease; 
     }
 }
 
@@ -132,22 +132,22 @@ p {
     border-radius: 10px;
     border-color: #ff004f;
     cursor: pointer;
-    margin-right: 10px; /* Adjust the space between elements */
+    margin-right: 10px; 
 }
 
-/* Optional: Add media query for smaller screens */
+
 @media (max-width: 768px) {
     .container {
-        top: 63%; /* Adjust the top position for smaller screens */
-        left: 32%; /* Center the container horizontally on smaller screens */
+        top: 63%; 
+        left: 32%; 
         transform: translateX(-40%);
-        flex-direction: row; /* Stack elements vertically on smaller screens */
-        align-items: center; /* Center items horizontally on smaller screens */
+        flex-direction: row; 
+        align-items: center; 
     }
 
     .resume, .contactme {
-        margin-right: 10px; /* Remove margin for stacked elements */
-        margin-bottom: 0px; /* Add space between stacked elements */
+        margin-right: 10px; 
+        margin-bottom: 0px; 
     }
 }
 
@@ -155,22 +155,22 @@ p {
 .social-icons {
     position: absolute;
     top: 65%;
-    left: 12%; /* Adjust left position for better responsiveness */
+    left: 12%; 
 }
 @media (max-width: 768px) {
     .social-icons {
-        top: 72%; /* Adjust the top position for smaller screens */
+        top: 72%; 
         left: 15%;
-        transition: top 0.3s ease; /* Optional: Add a smooth transition effect */
+        transition: top 0.3s ease; 
     }
 }
 
 
 .social-icons a {
     text-decoration: none;
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 30px; 
     color: #ababab;
-    margin-right: 10px; /* Add some spacing between icons */
+    margin-right: 10px; 
 }
 .social-icons a #face {
     color:  #316FF6;
@@ -195,8 +195,8 @@ p {
 
 #port {
     position: absolute;
-    top: 10px; /* Adjust top position for better responsiveness */
-    left: 10px; /* Adjust left position for better responsiveness */
+    top: 10px; 
+    left: 10px; 
     font-weight: 900;
     border-radius: 5px solid;
     color: #a88132;
