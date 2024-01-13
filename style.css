@@ -42,7 +42,7 @@ ol.main {
   li.page a {
     text-decoration: none;
     color: white;
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
     font-weight: 700;
   }
   
