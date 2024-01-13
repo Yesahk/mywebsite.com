@@ -7,34 +7,45 @@ body {
     margin: 0; /* Remove default margin */
 }
 
-ol {
-    position: absolute; /* Change to fixed position */
-    top: 40px; /* Adjust the top position as needed */
+/* Default styles for larger screens */
+ol.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    position: fixed; /* Change to fixed position */
+    top: 20px; /* Adjust the top position as needed */
     right: 2%;
     display: flex;
     justify-content: center;
-    align-items: end;
-}
-
-ol li {
-    list-style: none;
-    margin-left: 28px;
+    align-items: flex-end; /* Adjust to align items to the bottom */
+  }
+  
+  li.page {
     background-color: red;
     width: 90px;
     height: 30px;
     border: solid 5px;
     border-radius: 8px;
     border-color: red;
-    font-size: 20px;
-}
-
-
-ol li a {
+    margin-right: 10px;/* Remove margin for smaller screens */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    li.page {
+      width: 100%; /* Adjust width for full width on smaller screens */
+      margin-right: 2px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  li.page a {
     text-decoration: none;
     color: white;
-    padding: 9px; /* Adjust padding for smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
     font-weight: 700;
-}
+  }
+  
 ol li:hover {
     background-color: white;
     border-color: white;
@@ -127,8 +138,8 @@ p {
 /* Optional: Add media query for smaller screens */
 @media (max-width: 768px) {
     .container {
-        top: 60%; /* Adjust the top position for smaller screens */
-        left: 30%; /* Center the container horizontally on smaller screens */
+        top: 63%; /* Adjust the top position for smaller screens */
+        left: 32%; /* Center the container horizontally on smaller screens */
         transform: translateX(-40%);
         flex-direction: row; /* Stack elements vertically on smaller screens */
         align-items: center; /* Center items horizontally on smaller screens */
@@ -148,7 +159,7 @@ p {
 }
 @media (max-width: 768px) {
     .social-icons {
-        top: 70%; /* Adjust the top position for smaller screens */
+        top: 72%; /* Adjust the top position for smaller screens */
         left: 15%;
         transition: top 0.3s ease; /* Optional: Add a smooth transition effect */
     }
