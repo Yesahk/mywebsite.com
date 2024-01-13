@@ -33,10 +33,33 @@ p {
 h2 {
     color: aqua;
 }
+@media (max-width: 768px) {
+    h2 {
+        position: absolute;
+        top: 30%;
+        left: 5%
+    }
+}
+
+#sech{
+ color: aqua;
+ position: absolute;
+ top: 45%;
+ left: 40%;
+}
+@media (max-width: 768px) {
+    #sech {
+        position: absolute;
+        top: 63%;
+        left: 5%
+    }
+}
+
+
 
 .abou {
     position: absolute;
-    top: 45%;
+    top: 53%;
     left: 40%;
     color: white;
     font-weight: 600;
@@ -46,12 +69,21 @@ h2 {
     color: white;
     font-weight: 600;
 }
+@media (max-width: 768px) {
+    #ppart {
+        position: absolute;
+        top: 55%;
+        left: 40%
+    }
+}
+
+
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .abou {
         position: absolute;
-        top: 60%; /* Adjust the top position for better visibility */
+        top: 70%; /* Adjust the top position for better visibility */
         left: 40%;
         order: 1; /* Change the order to move .abou below #ppart */
     }
@@ -228,6 +260,6 @@ ol li a:hover {
 
     ol {
         
-        right: 5%; /* Adjust right position for smaller screens */
+        right: 0%; /* Adjust right position for smaller screens */
     }
 }
