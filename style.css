@@ -78,7 +78,7 @@ p {
 @media (max-width: 768px) {
     #decs {
         position: absolute;
-        top: 35%;
+        top: 43%;
         left: 12%
     }
 }
@@ -97,7 +97,7 @@ p {
 /* Optional: Add media query for smaller screens */
 @media (max-width: 768px) {
     .image {
-        top: 83%; /* Adjust the top position for smaller screens */
+        top: 90%; /* Adjust the top position for smaller screens */
         left: 29%;
         transition: top 0.3s ease; /* Optional: Add a smooth transition effect */
     }
@@ -127,7 +127,7 @@ p {
 /* Optional: Add media query for smaller screens */
 @media (max-width: 768px) {
     .container {
-        top: 53%; /* Adjust the top position for smaller screens */
+        top: 60%; /* Adjust the top position for smaller screens */
         left: 30%; /* Center the container horizontally on smaller screens */
         transform: translateX(-40%);
         flex-direction: row; /* Stack elements vertically on smaller screens */
@@ -143,9 +143,17 @@ p {
 
 .social-icons {
     position: absolute;
-    top: 64%;
+    top: 65%;
     left: 12%; /* Adjust left position for better responsiveness */
 }
+@media (max-width: 768px) {
+    .social-icons {
+        top: 70%; /* Adjust the top position for smaller screens */
+        left: 15%;
+        transition: top 0.3s ease; /* Optional: Add a smooth transition effect */
+    }
+}
+
 
 .social-icons a {
     text-decoration: none;
