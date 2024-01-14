@@ -88,7 +88,7 @@ p {
     .abou {
         position: absolute;
         top: 82%; 
-        left: 10%;
+        left: 5%;
         order: 1; 
     }
 }
@@ -107,7 +107,7 @@ p {
     .exper {
         position: absolute;
         top: 104%;
-        left: 40%;
+        left: 0%;
         order: 1; 
     }
 }
@@ -173,7 +173,7 @@ h3 {
     .experTwo {
         position: absolute;
         top: 144%; 
-        left: 5%;
+        left: 0%;
         order: 1; 
     }
 }
@@ -197,7 +197,7 @@ h3 {
     .experThree {
         position: absolute;
         top: 184%; 
-        left: 5%;
+        left: 0%;
         order: 1; 
     }
 }
