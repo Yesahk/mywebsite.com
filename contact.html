@@ -38,6 +38,8 @@
         </div>
         </div>
 
+     
+
         <script>
           const scriptURL = 'https://script.google.com/macros/s/AKfycbwbor_yEa6oX-UhHdgK9ZCYk7aBYpvjHqGa3pPy0Y2mvoYQqaXURdGAEfWl-G_lXm28/exec'
           const form = document.forms['submit-to-google-sheet']
@@ -56,30 +58,29 @@
               .catch(error => console.error('Error!', error.message))
           })
 
-
-
-
-          <script>
-  function downloadResume() {
-      // Replace 'path/to/your/resume.pdf' with the actual path or URL to your resume file
-      var resumeUrl = 'doc/Yesahk_Ergano_Resume909.pdf';
-
-      // Create a temporary anchor element
-      var downloadAnchor = document.createElement('a');
-      downloadAnchor.href = resumeUrl;
-      downloadAnchor.download = 'Yesahk_Ergano_Resume909.pdf';  // You can customize the downloaded file name
-
-      // Append the anchor element to the document body
-      document.body.appendChild(downloadAnchor);
-
-      // Trigger a click event on the anchor element
-      downloadAnchor.click();
-
-      // Remove the anchor element from the document
-      document.body.removeChild(downloadAnchor);
-  }
-
         </script>
+
+<script>
+  function downloadResume() {
+// Replace 'path/to/your/resume.pdf' with the actual path or URL to your resume file
+var resumeUrl = 'doc/Yesahk_Ergano_Resume 808.pdf';
+
+// Create a temporary anchor element
+var downloadAnchor = document.createElement('a');
+downloadAnchor.href = resumeUrl;
+downloadAnchor.download = 'Yesahk_Ergano_Resume 808.pdf';  // You can customize the downloaded file name
+
+// Append the anchor element to the document body
+document.body.appendChild(downloadAnchor);
+
+// Trigger a click event on the anchor element
+downloadAnchor.click();
+
+// Remove the anchor element from the document
+document.body.removeChild(downloadAnchor);
+}
+
+  </script>
 
 
     
