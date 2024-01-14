@@ -32,7 +32,7 @@ p {
 @media (max-width: 768px) {
     .abu {
         position: absolute;
-        top: 59%;
+        top: 60%;
         left: 5%
     }
 }
@@ -46,7 +46,7 @@ p {
 @media (max-width: 768px) {
     #education {
         position: absolute;
-        top: 52%;
+        top: 54%;
         left: 5%
     }
 }
@@ -106,7 +106,7 @@ p {
 @media (max-width: 768px) {
     .exper {
         position: absolute;
-        top: 100%;
+        top: 104%;
         left: 40%;
         order: 1; 
     }
@@ -152,7 +152,7 @@ h3 {
 @media (max-width: 768px) {
     #h22 {
         position: absolute;
-        margin-top: 54%; 
+        margin-top: 56%; 
         left: 40%;
         
     }
@@ -172,7 +172,7 @@ h3 {
 @media (max-width: 768px) {
     .experTwo {
         position: absolute;
-        top: 140%; 
+        top: 144%; 
         left: 5%;
         order: 1; 
     }
@@ -196,7 +196,7 @@ h3 {
 @media (max-width: 768px) {
     .experThree {
         position: absolute;
-        top: 180%; 
+        top: 184%; 
         left: 5%;
         order: 1; 
     }
