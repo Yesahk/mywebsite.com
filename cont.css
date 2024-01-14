@@ -72,6 +72,12 @@ form input, form textarea{
     position: relative;
     left: 15%;
 }
+@media (max-width: 768px) {
+    #sub {
+        width: 95px;
+        height: 45px;
+    }
+}
 #sub:hover{
     cursor: pointer;
     background-color: green;
