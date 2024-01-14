@@ -32,7 +32,7 @@ p {
 @media (max-width: 768px) {
     .abu {
         position: absolute;
-        top: 58%;
+        top: 59%;
         left: 5%
     }
 }
@@ -46,7 +46,7 @@ p {
 @media (max-width: 768px) {
     #education {
         position: absolute;
-        top: 50%;
+        top: 52%;
         left: 5%
     }
 }
@@ -152,7 +152,7 @@ h3 {
 @media (max-width: 768px) {
     #h22 {
         position: absolute;
-        margin-top: 52%; 
+        margin-top: 54%; 
         left: 40%;
         
     }
