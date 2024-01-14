@@ -32,7 +32,7 @@ p {
 @media (max-width: 768px) {
     .abu {
         position: absolute;
-        top: 55%;
+        top: 58%;
         left: 5%
     }
 }
@@ -46,7 +46,7 @@ p {
 @media (max-width: 768px) {
     #education {
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 5%
     }
 }
@@ -60,7 +60,7 @@ p {
 @media (max-width: 768px) {
     #sech {
         position: absolute;
-        top: 71%;
+        top: 74%;
         left: 5%
     }
 }
@@ -87,7 +87,7 @@ p {
 @media (max-width: 768px) {
     .abou {
         position: absolute;
-        top: 79%; 
+        top: 82%; 
         left: 10%;
         order: 1; 
     }
@@ -152,7 +152,7 @@ h3 {
 @media (max-width: 768px) {
     #h22 {
         position: absolute;
-        margin-top: 51%; 
+        margin-top: 52%; 
         left: 40%;
         
     }
@@ -257,7 +257,7 @@ ol li a:hover {
 
 @media (max-width: 768px) {
     .aboutme {
-        top: 10%; 
+        top: 12%; 
         left: 5%; 
     }
 
