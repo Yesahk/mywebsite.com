@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="cont.css">
+</head>
+<body>
+  
+  <nav>
+    <ol class="main">
+        <li class="page">
+          <a href="index.html" id="home-page">Home</a>
+        </li>
+        <li class="page">
+          <a href="about.html" id="about-page">About</a>
+        </li>
+        <li class="page">
+          <a href="more.html" id="more-page">Experience </a>
+        </li>
+        <li class="page">
+          <a href="contact.html" id="contact-page">Contact</a>
+        </li>
+      </ol>
+      </nav>
+
+
+
+  
+    <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i id="email" class='bx bxs-envelope'></i>yesahkergano1272@gmail.com</p>
+              <p><i id="phone" class='bx bx-phone' ></i> 678-599-3598</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100076223737915"><i id="face" class='bx bxl-facebook-circle'></i></a>
+                <a href="https://twitter.com/Yesahk162896"><i id="twi" class='bx bxl-twitter' ></i></a>
+                <a href="https://instagram.com/napi_2222"><i id="inst" class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/yesahk-ergano-68815b25b"><i id="link" class='bx bxl-linkedin-square' ></i></a>
+              </div>
+              <button class="resume" onclick="downloadResume()">Download Resume</button>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button id="sub" type="submit">Submit</button>
+            </form>
+             <span id="msg"></span>
+          </div>
+        </div>
+        </div>
+        <h1 id="h1">Portfolio</h1>
+
+     
+
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbwbor_yEa6oX-UhHdgK9ZCYk7aBYpvjHqGa3pPy0Y2mvoYQqaXURdGAEfWl-G_lXm28/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById("msg")
+        
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                  msg.innerHTML = ""
+                }, 2000)
+                form.reset()
+              })
+              .catch(error => console.error('Error!', error.message))
+          })
+
+        </script>
+
+<script>
+  function downloadResume() {
+// Replace 'path/to/your/resume.pdf' with the actual path or URL to your resume file
+var resumeUrl = 'doc/Yesahk_Ergano_Resume 808.pdf';
+
+// Create a temporary anchor element
+var downloadAnchor = document.createElement('a');
+downloadAnchor.href = resumeUrl;
+downloadAnchor.download = 'Yesahk_Ergano_Resume 808.pdf';  // You can customize the downloaded file name
+
+// Append the anchor element to the document body
+document.body.appendChild(downloadAnchor);
+
+// Trigger a click event on the anchor element
+downloadAnchor.click();
+
+// Remove the anchor element from the document
+document.body.removeChild(downloadAnchor);
+}
+
+  </script>
+
+
+    
+</body>
+</html>

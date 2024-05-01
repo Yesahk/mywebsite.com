@@ -1,0 +1,197 @@
+body{
+    
+    background: fixed;
+    background-position: center;
+    background-color: #070621;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ol.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    position: absolute; 
+    top: 20px; 
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+  }
+  
+  li.page {
+    
+    background-color: #070621;
+    border: solid 5px;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    li.page {
+      width: 100%; 
+      margin-right: 2px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  li.page a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+ol li:hover {
+    background-color: #03e3fc;
+    border-color: #03e3fc;
+    
+}
+ol li a:hover{
+    color: black;
+}
+
+
+#contact{
+    position: relative;
+    margin-top: 10%;
+}
+.contact-left{
+    position: relative;
+    left: 50px;
+    flex-basis: 35%;
+
+
+}
+#h1{
+    position: absolute;
+    top: -50%;
+    left: 20px; 
+    font-size: 30px; 
+    color: white;
+}
+.contact-left h1{
+    flex-basis: 35%;
+    color: white;
+   
+
+}
+.contact-right{
+    position: relative;
+    margin-left: 30%;
+    right: 20%;
+    
+}
+.contact-left p{
+    
+    color: white;
+}
+
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    left: 15%;
+}
+#sub{
+    width: 85px;
+    height: 45px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 15%;
+}
+@media (max-width: 768px) {
+    #sub {
+        width: 95px;
+        height: 45px;
+    }
+}
+#sub:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-color: black;
+}
+.contact-left p ion-icon{
+    color: red;
+}
+.social-icons a #face{
+    color:  #316FF6;
+   
+    
+}
+.social-icons a #twi{
+    color:  #316FF6;
+    
+}
+.social-icons a #inst{
+    color:  #cd486b;
+   
+    
+}
+.social-icons a #link{
+    color:  #0077b5;
+    
+    
+}
+.box-3{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    left: 10%;
+    border-radius: 60px;
+   
+}
+#email{
+    color: red;
+    
+}
+#phone{
+    color: red;
+}
+#msg{
+    color: #61b725;
+    margin-top: -0px;
+    display: block;
+   position: absolute;
+   left: 15%;
+
+}
+.resume{
+    background: red;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color: red;
+    cursor: pointer;
+}

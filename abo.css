@@ -1,0 +1,325 @@
+body {
+    background: fixed;
+    background-position: center;
+    /*background-image: url(pic/backdround.png);*/
+    background-color: #070621;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    font-weight: 900;
+    font-style: oblique;
+}
+#me{
+    font-size: 40px;
+    font-weight: 900;
+}
+#work{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h1 {
+    color: aqua;
+}
+#h1{
+    position: absolute;
+    top: 0%;
+    left: 20px; 
+    font-size: 30px; 
+    color: #03e3fc;
+}
+
+
+p {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.abu {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+@media (max-width: 768px) {
+    .abu {
+        position: absolute;
+        top: 60%;
+        left: 5%
+    }
+}
+
+#education {
+    color: aqua;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+@media (max-width: 768px) {
+    #education {
+        position: absolute;
+        top: 54%;
+        left: 5%
+    }
+}
+
+#sech{
+ color: aqua;
+ position: absolute;
+ top: 43%;
+ left: 40%;
+}
+@media (max-width: 768px) {
+    #sech {
+        position: absolute;
+        top: 74%;
+        left: 5%
+    }
+}
+
+
+
+.abou {
+    position: absolute;
+    top: 51%;
+    left: 40%;
+    color: white;
+    font-weight: 600;
+}
+
+#ppart {
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .abou {
+        position: absolute;
+        top: 82%; 
+        left: 5%;
+        order: 1; 
+    }
+}
+.exper {
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 390px;
+    height: 250px;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    .exper {
+        position: absolute;
+        top: 104%;
+        left: 0%;
+        order: 1; 
+    }
+}
+
+#secP {
+    color: black;
+    font-weight: 500;
+}
+
+.expo {
+    position: absolute;
+    top: 50%;
+    left: 290%;
+    color: white;
+}
+
+h3 {
+    color: black;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.image {
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px; 
+    box-shadow: 20px 20px 50px #43aba6;
+    background-color: antiquewhite;
+}
+@media only screen and (max-width: 1250px) {
+    .image {
+      position: absolute;
+      top: 15%;
+      
+    }
+  }
+
+#h22 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: aqua;
+}
+@media (max-width: 768px) {
+    #h22 {
+        position: absolute;
+        margin-top: 56%; 
+        left: 40%;
+        
+    }
+}
+
+
+.experTwo {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    width: 390px;
+    height: 250px;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+@media (max-width: 768px) {
+    .experTwo {
+        position: absolute;
+        top: 144%; 
+        left: 0%;
+        order: 1; 
+    }
+}
+
+#ThirdP {
+    color: black;
+    font-weight: 500;
+}
+
+.experThree {
+    position: absolute;
+    top: 68%;
+    left: 70%;
+    width: 390px;
+    height: 250px;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+@media (max-width: 768px) {
+    .experThree {
+        position: absolute;
+        top: 184%; 
+        left: 0%;
+        order: 1; 
+    }
+}
+
+#FourthP {
+    color: black;
+    font-weight: 500;
+}
+
+ol.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    position: absolute; 
+    top: 20px; 
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+  }
+  
+  li.page {
+    
+    
+    border: solid 5px;
+    border-radius: 8px;
+    
+    margin-right: 10px;
+    
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    li.page {
+      width: 100%; 
+      margin-right: 2px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  li.page a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+ol li:hover {
+    background-color: #03e3fc;
+    border-color: #03e3fc;
+}
+
+ol li a:hover {
+    color: black;
+}
+
+
+@media (max-width: 1250px) {
+    .aboutme {
+        top: 57%; 
+        left: 5%; 
+    }
+    
+    
+   
+    #h22 {
+        left: 5%; 
+    }
+
+    ol {
+        
+        right: 0%;
+    }
+}
+.btn{
+    position: absolute;
+    top: 72%;
+    left: 40%;
+    width: 120px;
+    height: 40px;
+    background-color: #03e3fc;
+    color: black;
+    border-radius: 10px;
+    border-color: #03e3fc;
+    font-size: 13px;
+    
+}
+@media only screen and (max-width: 1250px) {
+    .btn {
+      position: absolute;
+      top: 120%;
+      
+    }
+  }
